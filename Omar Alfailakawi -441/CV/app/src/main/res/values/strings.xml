@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CV</string>
+    <string name="your_cv">Your CV</string>
+    <string name="name">Name:</string>
+    <string name="age">Age:</string>
+    <string name="job">Job:</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="e_mail">E-mail:</string>
+    <string name="PFP">TODO</string>
+    <string name="back">Back</string>
+    <string name="NameEmpty" />
+    <string name="JobEmpty" />
+    <string name="EmailEmpty" />
+    <string name="call_number">Call Number</string>
+    <string name="open_e_mail">Open E-mail</string>
+    <string name="NumberEmpty2" />
+    <string name="AgeEmpty2" />
+    <string name="PIcture">UploadYourPic</string>
+    <string name="NameEmpty2" />
+
+</resources>

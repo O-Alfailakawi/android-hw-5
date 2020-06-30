@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#87DFD6"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="20dp"
+        android:background="#086972"
+        android:backgroundTint="#086972"
+        android:text=" Your CV "
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/NameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/name"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/AgeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/NameTV"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="90dp"
+        android:text="@string/age"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/JobTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/AgeTV"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="90dp"
+        android:text="@string/job"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/PhoneTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/JobTV"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="90dp"
+        android:text="@string/phone_number"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/EmailTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/PhoneTV"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="90dp"
+        android:text="@string/e_mail"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/EmailTV"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#01A9B4"
+        android:text="@string/back" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/NameTV"
+        android:layout_alignTop="@id/NameTV"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="0dp"
+        android:backgroundTint="#FBFD8A"
+        android:text="@string/NameEmpty"
+        android:textColor="#494545"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/AgeTV"
+        android:layout_alignTop="@id/AgeTV"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="0dp"
+        android:backgroundTint="#FBFD8A"
+        android:textColor="#494545"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/JobTV"
+        android:layout_alignTop="@id/JobTV"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="0dp"
+        android:backgroundTint="#FBFD8A"
+        android:text="@string/JobEmpty"
+        android:textColor="#494545"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/PhoneTV"
+        android:layout_alignTop="@id/PhoneTV"
+        android:layout_marginStart="187dp"
+        android:layout_marginTop="0dp"
+        android:backgroundTint="#FBFD8A"
+        android:textColor="#494545"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/EmailTV"
+        android:layout_alignTop="@id/EmailTV"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="0dp"
+        android:backgroundTint="#FBFD8A"
+        android:text="@string/EmailEmpty"
+        android:textColor="#494545"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/Back"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="#01A9B4"
+        android:text="@string/call_number" />
+
+    <Button
+        android:id="@+id/Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/Back"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="#01A9B4"
+        android:text="@string/open_e_mail" />
+
+    <ImageView
+        android:id="@+id/PFP"
+        android:layout_width="110dp"
+        android:layout_height="119dp"
+        android:layout_alignStart="@id/NameTV"
+        android:layout_marginStart="271dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="Picture"
+        app:srcCompat="@drawable/profile_pic" />
+
+
+
+
+
+</RelativeLayout>
